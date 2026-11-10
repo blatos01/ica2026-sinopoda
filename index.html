@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The COI phylogeny, sampling map, and SKG morphometrics from the ICA 2026 Korean Sinopoda poster supplement.">
+  <meta name="theme-color" content="#142b49">
+  <title>Korean Sinopoda | ICA 2026 supplementary figures</title>
+  <link rel="stylesheet" href="figure-brightness.css">
+  <style>
+    :root { color-scheme: light; --navy:#142b49; --text:#263b51; --muted:#49617a; --teal:#096b77; --line:#dce5ef; --paper:#fff; --wash:#f3f7fb }
+    * { box-sizing:border-box }
+    body { margin:0; border-top:7px solid var(--navy); background:var(--wash); color:var(--text); font:1rem/1.55 system-ui,sans-serif }
+    main, footer { max-width:72rem; margin-inline:auto; padding-inline:clamp(1rem,4vw,2.5rem) }
+    header { padding-block:clamp(2rem,6vw,4rem) 1.5rem; border-bottom:1px solid var(--line) }
+    .eyebrow { color:var(--teal); margin:0 0 .45rem; font-size:.77rem; font-weight:750; letter-spacing:.1em; text-transform:uppercase }
+    h1,h2 { line-height:1.15; color:var(--navy) }
+    h1 { font-size:clamp(2.1rem,6vw,3.8rem); letter-spacing:-.045em; margin:0 }
+    .lead { max-width:44rem; margin:.75rem 0 1.2rem; color:var(--muted) }
+    .actions { display:flex; align-items:center; flex-wrap:wrap; gap:.65rem 1rem }
+    .button { background:var(--navy); color:white; border-radius:.35rem; font-weight:680; padding:.65rem 1rem; text-decoration:none }
+    .button:hover { background:var(--teal) }
+    .download { color:var(--navy); text-underline-offset:.18em }
+    a:focus-visible { outline:3px solid #00889a; outline-offset:3px }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%, 18rem),1fr)); gap:1rem; margin-block:1.6rem }
+    article { min-width:0; border:1px solid var(--line); border-radius:.5rem; background:var(--paper); overflow:hidden }
+    .figure { display:block; background:white; border-bottom:1px solid var(--line) }
+    .figure img { display:block; width:100%; height:auto; aspect-ratio:1000/720; object-fit:contain }
+    .figure:hover { outline:2px solid var(--teal); outline-offset:-2px }
+    .copy { padding:1rem }
+    .copy h2 { font-size:1.18rem; margin:0 0 .35rem }
+    .copy p { color:var(--muted); margin:0; font-size:.9rem }
+    footer { color:var(--muted); font-size:.85rem; padding-block:0 2rem }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">ICA 2026 poster supplement</p>
+      <h1>Korean <i>Sinopoda</i></h1>
+      <p class="lead">Supplementary figures for the poster on COI phylogeny, sampling localities, and geometric morphometrics.</p>
+      <div class="actions">
+        <a class="button" href="ICA2026-Sinopoda-supplement.pdf">Open the PDF</a>
+        <a class="download" href="ICA2026-Sinopoda-supplement.pdf" download>Download PDF (3 pages, 5.7 MB)</a>
+      </div>
+    </header>
+    <section class="grid" aria-label="Supplementary figures">
+      <article>
+        <a class="figure" href="figures.html#s1" aria-label="Open full-size S1 COI phylogeny">
+          <img class="figure-s1" src="figure-1.jpg" width="1667" height="1200" alt="Supplementary figure S1, showing the COI phylogeny with highlighted Sinopoda clivus vouchers.">
+        </a>
+        <div class="copy"><h2>S1 · COI phylogeny</h2><p>Branch support, taxon labels, and focal voucher IDs.</p></div>
+      </article>
+      <article>
+        <a class="figure" href="figures.html#s2" aria-label="Open full-size S2 sampling map">
+          <img class="figure-s2" src="figure-2.jpg" width="1667" height="1200" alt="Supplementary figure S2, showing the overview sampling map and the southern coast and Jeju detail." loading="lazy">
+        </a>
+        <div class="copy"><h2>S2 · Sampling map</h2><p>Sampling localities and a closer view of the southern coast and Jeju.</p></div>
+      </article>
+      <article>
+        <a class="figure" href="figures.html#s3" aria-label="Open full-size S3 SKG morphometrics">
+          <img class="figure-s3" src="figure-3.jpg" width="1667" height="1200" alt="Supplementary figure S3, showing landmark examples, four t-SNE plots for the ventral male palp, RTA, epigyne, and vulva, and selected Procrustes results." loading="lazy">
+        </a>
+        <div class="copy"><h2>S3 · SKG morphometrics</h2><p>Genital landmark examples, four structure-specific t-SNE plots, and selected Procrustes results.</p></div>
+      </article>
+    </section>
+  </main>
+  <footer>Junho Chae et al. · ICA 2026</footer>
+</body>
+</html>

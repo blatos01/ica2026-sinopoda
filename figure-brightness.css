@@ -1,0 +1,4 @@
+/* Lift shadows and midtones while preserving black and white. */
+img.figure-s1 { filter: url("figure-tones.svg#s1"); }
+img.figure-s2 { filter: url("figure-tones.svg#s2"); }
+img.figure-s3 { filter: url("figure-tones.svg#s3"); }
